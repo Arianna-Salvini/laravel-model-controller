@@ -1,1 +1,21 @@
 @import '~bootstrap/scss/bootstrap';
+
+$mv_dark: #006a8a;
+$shadow_light: #1d5c4f;
+$bg_card: #cfffff80;
+
+body {
+    background: linear-gradient(to bottom, #43c6ac, #103c3c);
+}
+
+.title_section {
+    text-shadow: $shadow_light 3px 1px 15px;
+}
+
+.bg_card {
+    background-color: $bg_card;
+}
+
+.movie_title {
+    color: $mv_dark;
+}
