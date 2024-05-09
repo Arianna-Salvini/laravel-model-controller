@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body class="bg-primary">
     @include('partials.header')
     <main>
         @yield('content')
